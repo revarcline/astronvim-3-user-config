@@ -14,6 +14,7 @@ return {
       return opts
     end,
   },
+  -- customize smart-splits
   -- You can disable default plugins as follows:
   { "max397574/better-escape.nvim", enabled = false },
   --
