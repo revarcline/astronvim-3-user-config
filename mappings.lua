@@ -24,6 +24,9 @@ return {
       end,
       desc = "Pick to close",
     },
+    -- add newlines above and below
+    ["[<Space>"] = {"<cmd>put! =repeat(nr2char(10), v:count1)|silent ']+<cr>"},
+    ["]<Space>"] = {"<cmd>put =repeat(nr2char(10), v:count1)|silent '[-<cr>"},
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
