@@ -49,7 +49,7 @@ return {
   "tpope/vim-repeat",
   { "vimwiki/vimwiki", lazy = false },
   { "mattn/emmet-vim", lazy = false },
-  { "jabirali/vim-tmux-yank", lazy = false },
+  { "revarcline/vim-tmux-yank", lazy = false },
   { "mg979/vim-visual-multi", lazy = false },
   {
     "nvim-neo-tree/neo-tree.nvim",
